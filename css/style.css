@@ -251,6 +251,9 @@ p {
     text-align:center;
     background: #191a1c;
 }
+.texto-justificado{
+    text-align: justify;
+}
 .thumbnail .more {
     display:block;
     z-index:4;
