@@ -574,9 +574,9 @@ p {
     margin:0;
 }
 .testimonial .arrow {
-    margin-left:10px;
+    margin-left:6px;
     width:0;
-    border-top:10px solid #FECE1A;
+    border-bottom:10px solid #FECE1A;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -905,4 +905,16 @@ p {
     .price-column, .testimonial {
         margin-top:30px;
     }
+}
+
+/* adicional a tarjeta */
+
+.tick {
+    width: 100%;
+    height: 100%;
+}
+
+.tick:hover {
+    transform: translateY(-2px) scale(1.0) translateZ(0);
+    box-shadow: 0 5px 5px rgb(254, 206, 26);
 }
